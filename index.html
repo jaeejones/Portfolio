@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Jael Jones|JrDev</title>
+    <meta name="description" content="Getting to know Jael Jones">
+    <meta name="keywords" content="Jael Jones, resume, portfolio, web, design, developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--External Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700|Playfair+Display:400,900' rel='stylesheet' type='text/css'>
+    <!--External CSS-->
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+    <div id="AboutMe">
+        <h1>Jael Jones</h1>
+        <h3>Junior Software Developer</h3>
+        <img src="images/jjflower.JPG" alt=" Jael with a flower in her hair" class="center" />
+        <p>Welcome to my portfolio landing page.</p>
+        <p>After nine years of working in education, I am have used my time and resources to become a Software Developer. My goal is to combine my passions with technology and boldly go where no woman has gone before.</p>
+        <p> In my spare time,I love browsing health food stores,bookshops and thrift shops. However,my favorite place is the comfort of home cooking,reading,watching movies or web browsing.<p>
+            Software Engineering Apprentice at <a href="www.wecancodeit.com">We Can Code IT</a>. Currently learning and creating with
+            C# || .NET || HTML5 || CSS3 || Bootstrap || ASP.NET || SQL || MVC || Visual Studio || Git/GitHub
+        </p>
+    </div>
+    <div id="Projects">
+        <h3>Projects</h3>
+        <p>
+            Don't you just love samples? We all do! Well, here is just a sample of my developer work from the front to the end. Go ahead (click on the arrows) and sample till your heart's content. If you are hungry for more please visit my <a href="https://github.com/jaeejones">Github</a> to view my favorite projects: <a href="https://github.com/jaeejones/jaeejones.github.io.git ">Portfolio</a>,<a href="https://github.com/jaeejones/SummerSchoolMVC.git">Summer School MVC</a> and <a href="https://github.com/jaeejones/02-go-with-the-flow.git"> Go with the flow</a>!
+            <ul class="slides">
+                <input type="radio" name="radio-btn" id="img-1" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="images/aboutme.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-6" class="prev">&#x2039;</label>
+                        <label for="img-2" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-2" />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="images/mvcprog.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">&#x2039;</label>
+                        <label for="img-3" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-3" />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="images/gwtfprog.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">&#x2039;</label>
+                        <label for="img-4" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-4" />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="images/gwtfprog.jpg " />
+                    </div>
+                    <div class="nav">
+                        <label for="img-3" class="prev">&#x2039;</label>
+                        <label for="img-5" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-5" />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="images/gwtfprog.jpg" />
+                    </div>
+                    <div class="nav">
+                        <label for="img-4" class="prev">&#x2039;</label>
+                        <label for="img-6" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <input type="radio" name="radio-btn" id="img-6" />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img src="images/gwtfprog.jpg " />
+                    </div>
+                    <div class="nav">
+                        <label for="img-5" class="prev">&#x2039;</label>
+                        <label for="img-1" class="next">&#x203a;</label>
+                    </div>
+                </li>
+
+                <li class="nav-dots">
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                    <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                    <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+                    <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+                </li>
+            </ul>
+            <div id="Contact">
+                <h3>Contact</h3>
+        <p>Thank you so much for visting my page and learning about me. Now, it's your turn! Please feel free to reach out to me directly, by email regarding my work. I would love to hear from you. All the Best! </p>
+        <div id="contact-area">
+
+            <form method="post" action="contactengine.php">
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" id="Name" />
+
+                <label for="City">City:</label>
+                <input type="text" name="City" id="City" />
+
+                <label for="Email">Email:</label>
+                <input type="text" name="Email" id="Email" />
+
+                <label for="Message">Message:</label><br />
+                <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+                <input type="submit" name="submit" value="Submit" class="submit-button" />
+            </form>
+
+            <div style="clear: both;"></div>
+        </div>
+        <footer>
+            <ul id="navlist">
+                <!----add a github icon,make these bigger, add a copyright and add you images. I want to add a modal on the right side and a nav connector at the top-->
+                <li id="linkedIn">
+                    <a href="https://www.linkedin.com/in/jaeljones" target="_blank"><img src="images/linkedin-32.png" /><a>
+                </li>
+                <li id="twitter">
+                    <a href="https://twitter.com/the1JaelJones" target="_blank"><img src="images/twitter-32.png" /></a>
+                </li>
+                <li id="linkedIn">
+                    <a href="mailto:jaliz.j@gmail.com" target="_blank"><img src="images/email-32.png" /><a>
+                </li>
+            </ul>
+        </footer>
+</body>
+</html>
